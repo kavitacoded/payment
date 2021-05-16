@@ -43,6 +43,7 @@ public class PaymentService {
 			payment.setTransactionID(UUID.randomUUID().toString());
 			payment.setTransactionID(UUID.randomUUID().toString());
 			payment.setTransactionID(UUID.randomUUID().toString());
+			payment.setTransactionID(UUID.randomUUID().toString());
 			
 			return repository.save(payment);
 		}
